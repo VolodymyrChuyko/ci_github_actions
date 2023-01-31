@@ -7,7 +7,7 @@ export function subtract(a: number, b: number) {
 }
 
 export function mult(a: number, b: number) {
-  return a / b;
+  return a * b;
 }
 
 export function fetchUser() {
