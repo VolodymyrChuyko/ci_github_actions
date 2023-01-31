@@ -1,7 +1,3 @@
-# Unit testing basics with Jest testing framework
+# CI workflow using GitHub Actions
 
-`index.ts` contains implemented functions to be tested
-
-`index.test.ts` contains implemented unit tests using Jest testing framework.
-
-Use `npm test` to fire Jest unit tests
+`.github\workflows\ci.ylm` - triggers on push or pull_request to branch `main`. Performs static code analyzing and unit testing.
